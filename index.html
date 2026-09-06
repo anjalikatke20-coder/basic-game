@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> let's play game </h>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="rock.png">
+            </div>
+        
+            <div class="choice" id="paper">
+                <img src="paper.png">
+            </div>
+           <div class="choice" id="scissor">
+            <img src="scissor.png">
+           </div>
+        </div>
+
+      <div class="score-board">
+           <div class="score" >
+              <p id="user-score">0</p>
+               <p>user</p>
+           </div>
+           <div class="score">
+              <p id="comp-score">0</p>
+              <p>comp</p>
+            </div>
+      </div>
+
+        <div class="msg-container">
+           <p id="msg"> Let' play your move </p>
+        </div>
+        <script src="app.js"></script>
+</body>
+</html>
